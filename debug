@@ -1,0 +1,9 @@
+在代码的报错上一行输入import pdb;pdb.set_trace()
+当程序运行到那一行时会出现（Pdb）
+  我们输入c是执行程序，输入n进入下一行，输入s是进入函数内部
+  我们也可以输入args查看参数，针对特对的参数我们
+  可以输入 !import glob
+  !files = glob.glob(inpsDict['miaplpy.load.connCompFile'])
+  !print(files)
+  这三行代码则查看路径
+  针对特定文件，在单引号输入这个文件即可
